@@ -18,7 +18,7 @@ body{
 
 .header{
     text-transform: uppercase;
-    font-size: 14px;
+    font-size: 16px;
 }
 
 #jokes{
@@ -28,32 +28,37 @@ body{
      border-radius: 10px;
     flex-direction: column;
     width: 500px;
-    height: 220px;
+    height: 200px;
     gap: 25px;
-    background-color: chartreuse;
+    background-color:burlywood;
     flex-wrap: wrap;
+    padding: 10px;
 }
+
 
 #getJokes{
      border: 0;
-    width: 100px;
+    width: 150px;
     height: 30px;
     background-color:azure;
     text-transform: uppercase;
     border-radius: 10px;
-    background-color: coral;
-    color: wheat;
+    background-color:black;
+    border: 1px solid rgb(16, 234, 20);
+    color:yellow;
 
+   
     
 }
-#getJokes:hover{
-    color: chartreuse;
-}
+ 
 #badjokes{
-    width: 60%;
-    text-align: center;
+    width: 80%;
+   
     flex-wrap: wrap;
     display: flex;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
 }
 
 .mukta-extralight {
